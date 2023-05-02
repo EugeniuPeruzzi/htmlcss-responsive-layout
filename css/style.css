@@ -32,7 +32,7 @@ a:visited{
 }
 
 .container{
-    max-width: 320px;
+    max-width: 380px;
     margin: 0px auto;
 }
 
@@ -116,6 +116,11 @@ a:visited{
 
 .border-radiu-litle{
     border-radius: 25px;
+}
+
+.jumbotron-footer{
+    background-color: #333333;
+    padding-bottom: 50px;
 }
 
 /* end utilities */
@@ -438,4 +443,18 @@ ul,li{
 
 .no-margin{
     margin: 0px 0px;
+}
+/* footer */
+.footer-content{
+    text-align: center;
+    color: #fff;
+}
+
+.first-p-footer{
+    padding-top: 40px;
+    margin-bottom: 70px;
+}
+
+.footer-content > p{
+    line-height: 1.7rem;
 }
