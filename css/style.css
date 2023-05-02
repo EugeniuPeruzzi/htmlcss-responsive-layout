@@ -5,9 +5,12 @@
 }
 /* mobile first */
 /* utilites layout */
-
 body, input, button{
     font-family: 'Roboto', sans-serif;
+}
+
+span{
+    display: inline-block;
 }
 
 .jumbotron-header{
@@ -63,7 +66,9 @@ body, input, button{
     width: clac(100% / 2);
 }
 */
-
+.margin-top{
+    margin-top: 25px;
+}
 
 .margins-content{
     margin: 15px 20px;
@@ -98,6 +103,10 @@ body, input, button{
 
 .border-radiu-big{
     border-radius: 50px;
+}
+
+.border-radiu-litle{
+    border-radius: 25px;
 }
 
 /* end utilities */
@@ -184,6 +193,7 @@ h3{
 }
 
 #white-container-p{
+    color: #818181;
     margin: 15px 0px 70px;
     line-height: 1.8rem;
     text-align: center;
@@ -213,7 +223,6 @@ h3{
 
 .first-100-content > span{
     margin-bottom: 30px;
-    display: inline-block;
 }
 
 .first-100-content > h1{
@@ -273,3 +282,73 @@ h3{
     margin: 25px 0px;
     font-size: 1.2rem;
 }
+/* fourth part main */
+.h1-fourth-part{
+    text-align: center;
+    padding-top: 50px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.why-list{
+    margin: 25px 0px 25px;
+}
+
+.fa-sharp{
+    font-size: 3rem;
+    color: #9792E4;
+}
+
+.white-container > h2{
+    color: #9792E4;
+}
+
+.border-radiu-litle > p{
+    line-height: 1.8rem;
+    color: #818181;
+    margin-bottom: 25px;
+}
+
+.btn-more{
+    background-color: #9792E4;
+    color: #fff;
+    padding: 10px 50px;
+    margin-bottom: 10px;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+/* fifth part */
+.text-col-50-fifth-part > h1{
+    color: #9792E4;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.text-col-50-fifth-part > p{
+    line-height: 2.2rem;
+    margin-bottom: 40px
+}
+
+.img-about-us{
+    position: relative;
+    background-image: url(../img/about.jpg);
+}
+
+.quote-about-us{
+    color: #9792E4;
+    font-size: 4rem;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+}
+.fifth-part-content-col-50 > h2{
+    color: #9792E4;
+    font-size: 1.7rem;
+}
+
+.bnt-linked-in{
+    background-color: #9792E4;
+    color: #fff;
+    margin-bottom: 80px;
+}
+/* sixth part */
