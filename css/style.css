@@ -12,6 +12,11 @@ body, input, button{
 
 .jumbotron-header{
     background-color: #0084FD;
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+    right: 0px;
 }
 
 .container{
@@ -30,7 +35,7 @@ body, input, button{
 }
 
 .row{
-    margin: 50px 0px;
+    margin: 120px 0px 50px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -38,12 +43,27 @@ body, input, button{
 .col-70, .col-30{
     margin-bottom: 30px;
     background-color: #B5DDFF;
-    width: 100%;
     border-radius: 25px;
 }
 
+/* .col-70{
+    width: 70%;
+}
+
+.col-30{
+    width: calc(100% / 3);
+} 
+
+.col-50{
+    width: clac(100% / 2);
+*/
+
+
+.margins-content{
+    margin: 15px 20px;
+}
+
 .col-content{
-    margin: 15px 20px -5px;
     display: flex;
     flex-direction: column;
 }
@@ -56,6 +76,21 @@ body, input, button{
     padding: 10px 30px;
     border-radius: 35px;
     border: none;
+}
+
+.jumbotron-main{
+    background-color: #9792E4;
+    padding-bottom: 50px;
+}
+
+.white-container{
+    background-color: #fff;
+    padding: 15px 30px;
+    position: relative;
+}
+
+.border-radiu-big{
+    border-radius: 50px;
 }
 /* end utilities */
 /* header */
@@ -73,14 +108,12 @@ h2{
 
 #p-left{
     text-align: left;
-}
-
-p{
     color: #63798C;
     font-weight: 700;
     font-size: 1rem;
     line-height: 1.9rem;
 }
+
 .btn-apple{
     margin-top: 25px;
     width: 230px;
@@ -96,6 +129,8 @@ button > span{
 
 .img-container{
     margin-top: 50px;
+    margin-bottom: -20px;
+
 }
 
 .img-container > img{
@@ -108,10 +143,54 @@ button > span{
     margin-top: 15px;
 }
 
-.col-content > p{
+.parghp-30{
     margin-bottom: 30px;
     text-align: center;
     padding: 0px 5px;
+    color: #63798C;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.9rem;
 }
 /* second part main */
 
+.col-content > .planning-img{
+    margin: 50px 0px 100px; 
+}
+
+.col-content > h1{
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.p-50-content{
+    color: #fff;
+    line-height: 1.8rem;
+    margin-bottom: 25px;
+}
+
+h3{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#white-container-p{
+    margin: 15px 0px 70px;
+    line-height: 1.8rem;
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.donwload-btn{
+    background-color: #9792E4;
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50% );
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    border: none;
+    margin-bottom: 25px;
+}
