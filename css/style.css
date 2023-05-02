@@ -6,3 +6,30 @@
 /* mobile first */
 /* utilites layout */
 
+.jumbotron-header{
+    background-color: #0084FD;
+}
+
+.container{
+    max-width: 700px;
+    margin: 0px auto;
+}
+
+.row-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-50-header{
+    margin: 15px 0px;
+}
+
+/* end utilities */
+/* header */
+.fa-bars{
+    color: #fff;
+    font-size: 2rem;
+}
+/* end header */
+/* main */
