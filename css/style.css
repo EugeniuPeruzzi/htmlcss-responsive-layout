@@ -34,6 +34,11 @@ body, input, button{
     margin: 15px 0px;
 }
 
+.row-main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .row{
     margin: 120px 0px 50px;
     display: flex;
@@ -56,6 +61,7 @@ body, input, button{
 
 .col-50{
     width: clac(100% / 2);
+}
 */
 
 
@@ -159,8 +165,9 @@ button > span{
 }
 
 .col-content > h1{
+
     color: #fff;
-    margin-bottom: 50px;
+    margin: 50px 0px 50px;
 }
 
 .p-50-content{
@@ -171,7 +178,7 @@ button > span{
 
 h3{
     text-align: center;
-    margin-top: 20px;
+    margin: 20px 0px 20px;
 }
 
 #white-container-p{
@@ -193,4 +200,12 @@ h3{
     border-radius: 50px;
     border: none;
     margin-bottom: 25px;
+}
+/* third part main */
+.first-100-content{
+    text-align: center;
+}
+
+.first-100-content > h1{
+    color: #9792E4;
 }
