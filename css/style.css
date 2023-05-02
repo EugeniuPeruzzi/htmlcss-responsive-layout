@@ -87,6 +87,7 @@ body, input, button{
 .jumbotron-main{
     background-color: #9792E4;
     padding-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 .white-container{
@@ -98,6 +99,7 @@ body, input, button{
 .border-radiu-big{
     border-radius: 50px;
 }
+
 /* end utilities */
 /* header */
 .fa-bars{
@@ -202,10 +204,72 @@ h3{
     margin-bottom: 25px;
 }
 /* third part main */
+/* first 100 content */
 .first-100-content{
+    margin-bottom: 50px;
     text-align: center;
+    padding: 0px 15px;
+}
+
+.first-100-content > span{
+    margin-bottom: 30px;
+    display: inline-block;
 }
 
 .first-100-content > h1{
     color: #9792E4;
+    margin-bottom: 30px;
+}
+
+.first-100-content > p{
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+/* second 100 content */
+.card-col-100{
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #9792E4;
+}
+
+.img-circle{
+    margin-top: 30px;
+    background-position: center;
+    background-size: cover;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+
+.profile-1{
+    background-image: url(../img/testimonial1.jpg);
+}
+.profile-2{
+    background-image: url(../img/testimonial2.jpg);
+}
+.profile-3{
+    background-image: url(../img/testimonial3.jpg);
+}
+
+.card-col-100 > p {
+    text-align: center;
+    padding: 0px 30px;
+    margin-top: 20px;
+    color: #fff;
+    line-height: 2rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.fa-quote-left{
+    font-size: 1.8rem;
+}
+
+.card-col-100 > h4{
+    text-transform: uppercase;
+    color: #fff;
+    margin: 25px 0px;
+    font-size: 1.2rem;
 }
