@@ -121,6 +121,19 @@ a:visited{
     color: #fff;
     font-size: 2rem;
 }
+
+.header-menu{
+    display: none;
+    padding-right: 15px;
+    color: #fff;
+    font-size: 1.2rem
+}
+
+.btn-header{
+    font-size: 1rem;
+
+}
+
 /* end header */
 /* main */
 /* first part main */
@@ -541,8 +554,8 @@ ul,li{
         width: calc(100% / 2 - 18px);
     }
 
-    .col-50 {
-        width: calc(100%/ 2 - 20px);
+    .col-50{
+        width: 100%;
     }
 
     .img-about-us{
@@ -567,3 +580,106 @@ ul,li{
     }
 }
 /* desktop solution */
+@media screen and (min-width: 991px) {
+    .container{
+        max-width: 991px;
+    }
+
+    .row-flex{
+        flex-direction: row;
+    }
+
+    .img-container > .phone-img {
+        width: 100%;
+        margin-top: 52px;
+        margin-bottom: -40px;
+    }
+
+    .margins-content {
+        margin: 15px 10px;
+    }
+
+    .col-content > h1 {
+        font-size: 1.8rem;
+    }
+
+    .container-desktop-small{
+        max-width: 700px;
+    }
+
+    .col-50{
+        width: calc(100% / 2 - 30px);
+    }
+
+    .white-container-col-50{
+        margin-top: 135px;
+        background-color: #fff;
+        padding: 10px 30px 30px;
+        position: relative;
+    }
+
+    .img-container{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .img-circle {
+        width: 18%;
+        margin: 0px 0px;
+    }
+
+    .testimonial-text > P {
+        line-height: 1.8rem;
+    }
+
+    .fa-quote-left {
+        font-size: 1.8rem;
+    }
+
+    .col-30-main {
+        width: calc(100% / 3 - 18px);
+    }
+
+    .img-about-us {
+        width: 60%;
+    }
+
+    .container-phone {
+        max-width: 380px;
+        margin: 0px auto;
+    }
+
+    .hamburger-menu{
+        display: none;
+    }
+
+    .header-menu{
+        display: block;
+        display: inline;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container{
+        max-width: 1200px;
+    }
+
+    .img-container > .phone-img {
+        width: 100%;
+        margin-bottom: -40px;
+    }
+
+    .img-circle {
+        width: 15%;
+        margin: 0px 0px;
+    }
+
+    .img-about-us {
+        width: 50%;
+    }
+
+    .container-phone {
+        max-width: 380px;
+        margin: 0px auto;
+    }
+}
