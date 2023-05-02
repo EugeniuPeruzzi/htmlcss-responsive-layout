@@ -63,18 +63,10 @@ a:visited{
     border-radius: 25px;
 }
 
-/* .col-70{
-    width: 70%;
+.col-30-main{
+    margin-bottom: 30px;
 }
 
-.col-30{
-    width: calc(100% / 3);
-} 
-
-.col-50{
-    width: clac(100% / 2);
-}
-*/
 .margin-top{
     margin-top: 25px;
 }
@@ -276,7 +268,7 @@ h3{
     background-image: url(../img/testimonial3.jpg);
 }
 
-.card-col-100 > p {
+.testimonial-text > p {
     text-align: center;
     padding: 0px 30px;
     margin-top: 20px;
@@ -290,7 +282,8 @@ h3{
     font-size: 1.8rem;
 }
 
-.card-col-100 > h4{
+.testimonial-text > h4{
+    text-align: center;
     text-transform: uppercase;
     color: #fff;
     margin: 25px 0px;
@@ -458,3 +451,119 @@ ul,li{
 .footer-content > p{
     line-height: 1.7rem;
 }
+/* ======== RESPONSIVE ======== */
+/* tablet solution */
+@media screen and (min-width: 768px) {
+    .container{
+        max-width: 768px;
+    }
+
+    .row{
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .col-70{
+        width: calc(70% - 30px);
+    }
+
+    .col-30{
+        width: calc(100% / 3 - 20px);
+    }
+
+    .col-70, .col-30{
+        margin-bottom: 20px;
+    }
+    
+    .img-container > .phone-img {
+        width: 60%;
+    }
+
+    .img-container > img {
+        width: 100%;
+    }
+
+    .col-50{
+        width: 100%;
+    }
+
+    .col-content > h1 {
+        font-size: 3.8rem;
+    }
+    .col-100{
+        width: 100%;
+    }
+
+    .card-col-100{
+        padding: 25px 15px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .img-circle{
+        width: 25%;
+        margin: 0px 0px;
+    }
+
+    .testimonial-text{
+        width: 80%;
+        padding: 0px 30px;
+    }
+    
+    .testimonial-text > P{
+        text-align: left;
+        padding: 0px;
+        color: #fff;
+        line-height: 1.4rem;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    
+    .fa-quote-left {
+        font-size: 1.2rem;
+      }
+    .testimonial-text > h4 {
+        text-align: left;
+        text-transform: uppercase;
+        color: #fff;
+        margin: 25px 0px;
+        font-size: 1.2rem;
+    }
+
+    .row-main{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .col-30-main{
+        width: calc(100% / 2 - 18px);
+    }
+
+    .col-50 {
+        width: calc(100%/ 2 - 20px);
+    }
+
+    .img-about-us{
+        width: 80%;
+    }
+
+    .fa-quote-left {
+        font-size: 3.2rem;
+    }
+
+    .col-80{
+        width: calc(70% - 30px);
+    }
+
+    .col-20{
+        width: 30%;
+    }
+
+    .container-phone{
+        max-width: 380px;
+        margin: 0px auto;
+    }
+}
+/* desktop solution */
