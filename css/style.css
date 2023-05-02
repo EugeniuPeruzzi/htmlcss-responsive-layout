@@ -6,12 +6,16 @@
 /* mobile first */
 /* utilites layout */
 
+body, input, button{
+    font-family: 'Roboto', sans-serif;
+}
+
 .jumbotron-header{
     background-color: #0084FD;
 }
 
 .container{
-    max-width: 700px;
+    max-width: 320px;
     margin: 0px auto;
 }
 
@@ -25,6 +29,34 @@
     margin: 15px 0px;
 }
 
+.row{
+    margin: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-70, .col-30{
+    margin-bottom: 30px;
+    background-color: #B5DDFF;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.col-content{
+    margin: 15px 20px -5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.btn{
+    padding: 10px 30px;
+    border-radius: 35px;
+    border: none;
+}
 /* end utilities */
 /* header */
 .fa-bars{
@@ -33,3 +65,53 @@
 }
 /* end header */
 /* main */
+/* first part main */
+h2{
+    color: #0084FD;
+    margin: 20px 0px;
+}
+
+#p-left{
+    text-align: left;
+}
+
+p{
+    color: #63798C;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.9rem;
+}
+.btn-apple{
+    margin-top: 25px;
+    width: 230px;
+    background-color: #0084FD;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+button > span{
+    margin-left: 5px;
+}
+
+.img-container{
+    margin-top: 50px;
+}
+
+.img-container > img{
+    width: 100%;
+}
+
+.font-img{
+    font-size: 5rem;
+    color: #0084FD;
+    margin-top: 15px;
+}
+
+.col-content > p{
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 0px 5px;
+}
+/* second part main */
+
