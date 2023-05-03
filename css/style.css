@@ -568,6 +568,10 @@ ul,li{
         font-size: 3.2rem;
     }
 
+    .quotes-card{
+        font-size: 1.2rem;
+    }
+
     .col-80{
         width: calc(70% - 30px);
     }
@@ -639,7 +643,11 @@ ul,li{
     }
 
     .fa-quote-left {
-        font-size: 1.8rem;
+        font-size: 3.2rem;
+    }
+
+    .quotes-card{
+        font-size: 1.2rem;
     }
 
     .col-30-main {
@@ -692,4 +700,10 @@ ul,li{
         max-width: 380px;
         margin: 0px auto;
     }
-}
+
+    .container-desktop-small{
+        max-width: 820px;
+    }
+
+}    
+
